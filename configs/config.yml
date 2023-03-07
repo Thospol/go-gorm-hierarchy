@@ -1,0 +1,11 @@
+DATABASE:
+  HOST: "localhost"
+  PORT: 5432
+  USERNAME: "hierarchy"
+  PASSWORD: "P@ssw0rd"
+  DATABASE_NAME: "hierarchy"
+  DRIVER_NAME: "postgres"
+  ENABLE: true
+  MAX_IDLE_CONNS: 1
+  MAX_OPEN_CONNS: 100
+  MAX_LIFE_TIME: 1h0m0s

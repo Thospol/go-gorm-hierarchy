@@ -1,0 +1,18 @@
+Project Hierarchy {
+  database_type: 'MySQL'
+  Note: '''
+    # Hierarchy Database
+    **Hierarchy**
+  '''
+}
+
+
+Table charts {
+  id bigint [pk, increment, not null, note: 'ไอดี']
+  created_at timestamp [not null, note: 'วันเวลาที่สร้าง']
+  updated_at timestamp [not null, note: 'วันเวลาที่อัพเดตล่าสุด']
+  deleted_at timestamp [default: null, note: 'วันเวลาที่ลบ']
+  name varchar [note: 'ชื่อ']
+  chart_id bigint [note: 'ref']
+  note: 'ข้อมูลผัง'
+}
